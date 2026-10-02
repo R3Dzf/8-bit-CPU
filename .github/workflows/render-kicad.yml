@@ -63,13 +63,13 @@ from pathlib import Path
 
 path = Path(sys.argv[1])
 svg = path.read_text()
-match = re.search(r"<svg\\b[^>]*>", svg, re.DOTALL)
+match = re.search(r"<svg\b[^>]*>", svg, re.DOTALL)
 if match is None:
     raise SystemExit(f"Could not find SVG root in {path}")
 
 background = '<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>'
 if background not in svg:
-    svg = svg[:match.end()] + "\\n  " + background + svg[match.end():]
+    svg = svg[:match.end()] + "\n  " + background + svg[match.end():]
 path.write_text(svg)
 PY
 
