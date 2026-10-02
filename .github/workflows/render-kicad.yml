@@ -57,6 +57,9 @@ jobs:
 
           render_schematic "hardware/clock/clock.kicad_sch" "clock"
           render_schematic "hardware/ram-registers/ram.kicad_sch" "ram"
+          render_schematic "hardware/ram-registers/registers.kicad_sch" "registers"
+          render_schematic "hardware/ram-registers/instruction-register.kicad_sch" "instruction-register"
+          render_schematic "hardware/ram-registers/product-register.kicad_sch" "product-register"
           render_schematic "hardware/ram-registers/program-counter.kicad_sch" "program-counter"
           render_schematic "hardware/output/output.kicad_sch" "output"
           render_schematic "hardware/control-logic/control-logic.kicad_sch" "control-logic"
