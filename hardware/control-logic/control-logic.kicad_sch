@@ -7990,4 +7990,7821 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 137.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "1"
+			(uuid "6e3f5d94-f8d0-4f8c-9ab8-e0f648bc49d2")
+		)
+		(pin "2"
+			(uuid "339cd837-2beb-4a9a-b3d4-fca72f54a82c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0edb976c-6d1c-4362-b3aa-a5150323f968")
+		(property "Reference" "R20"
+			(at 128.27 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 128.27 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.952 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b285dc2-5483-476d-813a-c76d9e7e2c3c")
+		)
+		(pin "2"
+			(uuid "7ba79f41-e6ee-4db5-9619-e89bc6e08c3d")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 139.7 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1237f651-a74a-43a3-8e21-a458541046ab")
+		(property "Reference" "U8"
+			(at 249.174 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.174 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "527d4de6-b5ad-40d2-be45-e1cd8162203e")
+		)
+		(pin "1"
+			(uuid "b8693fc8-0db4-4189-a267-a682679058f5")
+		)
+		(pin "2"
+			(uuid "080f837a-d3c4-4560-a320-1525b31e784f")
+		)
+		(pin "3"
+			(uuid "6adf9148-acb0-4420-998a-09547d420b53")
+		)
+		(pin "4"
+			(uuid "1d0a1b42-d0c6-4382-b135-8877906ffb3b")
+		)
+		(pin "5"
+			(uuid "672d7892-0aa2-45b6-9940-6de5160db2a5")
+		)
+		(pin "6"
+			(uuid "9db98127-b5f9-42d2-936e-a72623855e4f")
+		)
+		(pin "10"
+			(uuid "22213cbe-3e3b-46b4-8d3f-50d3f784cae4")
+		)
+		(pin "11"
+			(uuid "9694dc2f-7ff3-4988-b9a5-91cf50ad3734")
+		)
+		(pin "9"
+			(uuid "87be402d-3f04-43f6-a336-8b57322ab3b7")
+		)
+		(pin "12"
+			(uuid "af15d8b1-0d57-410b-90b7-f9a473f73b26")
+		)
+		(pin "13"
+			(uuid "f28ad956-c4bb-497c-909f-3fdf7f9f6f72")
+		)
+		(pin "7"
+			(uuid "625b0e77-b079-480d-950f-d4dc29d76037")
+		)
+		(pin "14"
+			(uuid "b92a04d5-2550-440b-b38d-919261aa3e33")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1704b550-faa0-43ae-862f-ee2acf24bf49")
+		(property "Reference" "R11"
+			(at 170.18 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 170.18 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.862 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95b5a5e2-ce52-47b0-ae85-722531a00d80")
+		)
+		(pin "2"
+			(uuid "0b7b7ded-9c54-47b1-9c14-acbdf513933c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a06db0c-9682-4b9c-9def-f6506b7283ce")
+		(property "Reference" "R13"
+			(at 160.02 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 160.02 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a705da9-fac4-4faa-98af-194807c2bac5")
+		)
+		(pin "1"
+			(uuid "9857e50f-e23e-4d9a-961e-5f54d37f81eb")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bae0853-b68a-44a0-bc72-fea2bf479f0e")
+		(property "Reference" "#PWR010"
+			(at 21.59 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "343d408b-bdae-4f05-af53-94a278cd3a3e")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cca8fd0-b0f6-41c2-8c9e-28021c14f1f8")
+		(property "Reference" "U7"
+			(at 246.38 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 246.38 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b71")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c16412e")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1a")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d55")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd45")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0e8")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f998")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c8275")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7691")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a88c")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76522")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b32")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a419c")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf2")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d1d0050-47dd-4c21-92ac-5fda8a7f5d70")
+		(property "Reference" "#PWR09"
+			(at 43.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6843ba1-e8e2-4581-80b3-8f73445f9e90")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2080f710-174b-4c7d-9758-db8f9c6a930b")
+		(property "Reference" "R6"
+			(at 73.6601 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 74.422 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 19.812 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5957327-cbf2-4d1b-80fe-f8596e2b368b")
+		)
+		(pin "1"
+			(uuid "92f75b09-a02d-4448-9d59-c8a53f3213bd")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a5d1c1-13f8-45c4-a1f3-8b1ab277a954")
+		(property "Reference" "R1"
+			(at 24.13 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 24.13 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.812 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94f41156-3f64-4c44-9b86-7d71f7d65d7c")
+		)
+		(pin "1"
+			(uuid "e43b1a20-4fb2-454c-8972-d98fe865ff6e")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d59e95-1881-4d2e-844c-8a5e8207c411")
+		(property "Reference" "R23"
+			(at 114.3 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 114.3 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.982 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28cb3bab-fea7-4da3-ab9e-49d95f875810")
+		)
+		(pin "1"
+			(uuid "40305592-19cf-4c07-9223-ee9f9e1d1dc8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27913b7e-2162-40da-a2ec-3d3333b4263d")
+		(property "Reference" "R22"
+			(at 119.38 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 119.38 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.062 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ded425d-be60-4e54-a128-dc260639b007")
+		)
+		(pin "2"
+			(uuid "94cc118a-f862-4eee-a37a-fbb9daf7afca")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 41.91 162.56 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)		(uuid "2b059f3a-c578-41d1-8f51-e545eb392440")
+		(property "Reference" "U4"
+			(at 41.9017 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 41.9017 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 41.91 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 41.91 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "93b32e87-fac8-431f-890a-6c96f947f67c")
+		)
+		(pin "2"
+			(uuid "57c3e616-ef91-4479-9088-78f0fa7d73d6")
+		)
+		(pin "3"
+			(uuid "a31c05fa-0ff0-4f39-a415-b51f4a10fe88")
+		)
+		(pin "5"
+			(uuid "66449887-44e6-47e8-9cfb-282e2ba9270a")
+		)
+		(pin "10"
+			(uuid "4fb27051-5e44-45ae-9101-7c0194536381")
+		)
+		(pin "1"
+			(uuid "3d3ccc42-5bcf-4e46-8b2c-2051576a05f9")
+		)
+		(pin "4"
+			(uuid "495098fd-3d55-4795-a24a-da628265e5e4")
+		)
+		(pin "9"
+			(uuid "c2a5f467-031e-4c67-aeee-2e6e49cea188")
+		)
+		(pin "11"
+			(uuid "21aaa42b-46b0-404d-a4eb-02e0101d58db")
+		)
+		(pin "7"
+			(uuid "88f81e24-d893-4536-a081-fc0e910fa3d0")
+		)
+		(pin "8"
+			(uuid "460fb940-dd61-4a0f-9e93-7018a765b14d")
+		)
+		(pin "6"
+			(uuid "e09fb545-01b1-4580-b020-f715f9b6c71c")
+		)
+		(pin "13"
+			(uuid "5591b243-45f9-42a6-b244-610377dc3b5d")
+		)
+		(pin "14"
+			(uuid "7f4e8de3-3676-441e-8174-4f851cfea486")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ef901f9-f36b-468a-baa3-0893a1687ed8")
+		(property "Reference" "R7"
+			(at 87.6301 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 84.582 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 19.812 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b40efd8-9653-4521-afee-fa5150253ed5")
+		)
+		(pin "1"
+			(uuid "b22c513f-77e7-467b-9060-bcd8500ec3ea")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30d22fed-50b4-489f-89c4-1bfac995d0a8")
+		(property "Reference" "D10"
+			(at 162.56 172.212 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 164.084 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5d76f652-fe76-4731-9665-c1154dfc5bc3")
+		)
+		(pin "1"
+			(uuid "20c268db-77ad-4fde-8400-c0eb9adf5f9a")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32ecaf58-eedb-4c2d-b634-d27a357e6760")
+		(property "Reference" "#PWR012"
+			(at 154.94 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.654 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5636973d-d00f-4544-a74f-1c831f9a1ca8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36403cf6-146b-40b0-976c-95b73f1c7a66")
+		(property "Reference" "D2"
+			(at 59.3725 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEDs"
+			(at 61.214 18.542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b970474f-9458-4d4c-baf9-94a4e9f93b29")
+		)
+		(pin "1"
+			(uuid "e767f6cd-4690-45eb-a41a-cdaebbcf4465")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 121.92 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3886d27d-04bd-41c0-b32e-627e31807d42")
+		(property "Reference" "D21"
+			(at 117.094 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 119.634 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 121.92 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 121.92 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35cbe842-102b-43c5-8a95-a9a12bca6e03")
+		)
+		(pin "2"
+			(uuid "1aac362b-e3cb-49ff-8134-e3854fbf54f6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS138")
+		(at 82.55 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3903547e-9a38-44a5-99a3-3e68f2468020")
+		(property "Reference" "U2"
+			(at 87.122 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS138"
+			(at 87.122 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS138"
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Decoder 3 to 8 active low outputs"
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "f0036b31-cf0b-42d8-bfca-b4448b2c9b39")
+		)
+		(pin "2"
+			(uuid "9866c2fc-cdfa-4e70-a2e6-c9ebd231ec33")
+		)
+		(pin "4"
+			(uuid "77d4fe1a-b15a-4e2c-bf3f-f7f9a24db657")
+		)
+		(pin "7"
+			(uuid "b604856f-d29b-4691-9e63-e91aaf48abe6")
+		)
+		(pin "1"
+			(uuid "024993dc-41f5-48f0-849c-f65de4ec88ba")
+		)
+		(pin "3"
+			(uuid "b2a03bff-0042-45fd-9023-1b20e86fc731")
+		)
+		(pin "5"
+			(uuid "72a98692-620d-4197-959d-57888a49880c")
+		)
+		(pin "13"
+			(uuid "3402cda5-4d63-4084-a5e6-1a3037830105")
+		)
+		(pin "16"
+			(uuid "24ec381d-6bda-4bef-9d78-2b0985263f4f")
+		)
+		(pin "10"
+			(uuid "637c3961-a146-4d81-b2be-c897de12dbf7")
+		)
+		(pin "9"
+			(uuid "2c33f52a-3d77-4081-a8d4-429ab27a333e")
+		)
+		(pin "11"
+			(uuid "479bf5d6-a7b6-4864-8442-e6da37327cda")
+		)
+		(pin "12"
+			(uuid "a0422e12-f531-41f9-8b7d-a530abce9050")
+		)
+		(pin "8"
+			(uuid "38d5e5cf-ebde-42f8-a4f4-37f9b0501d93")
+		)
+		(pin "14"
+			(uuid "036529ef-b92f-42a5-aa64-31cd178b1654")
+		)
+		(pin "6"
+			(uuid "8e1f0eef-56bd-4568-aab4-0c7734cd3e4d")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS161")
+		(at 76.2 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fff038f-acb0-4952-95a8-5e39952c00ba")
+		(property "Reference" "U1"
+			(at 74.422 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS161"
+			(at 74.422 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS161"
+			(at 76.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Synchronous 4-bit programmable binary Counter"
+			(at 76.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "33692269-8077-492a-acfc-45c13832e5c4")
+		)
+		(pin "14"
+			(uuid "fe00611c-dfc2-465e-838c-f37499c6533c")
+		)
+		(pin "10"
+			(uuid "cbfc4e88-44c8-4404-ab58-eb439b3e7836")
+		)
+		(pin "13"
+			(uuid "140e3d9b-44c5-44be-a4ca-cd3fb5d53675")
+		)
+		(pin "8"
+			(uuid "be3f2fd1-1548-4dd9-800a-898e87aa5327")
+		)
+		(pin "3"
+			(uuid "4da14bc9-45c9-4161-8312-507460d58e92")
+		)
+		(pin "5"
+			(uuid "2ee40e6e-d8e5-458e-b1c7-30a443e5b470")
+		)
+		(pin "1"
+			(uuid "14b97554-c48b-44aa-a6e6-ddcf7b0da8b9")
+		)
+		(pin "4"
+			(uuid "96d6cc89-cadb-4ac3-837f-88edf5b9eda8")
+		)
+		(pin "6"
+			(uuid "5654a88d-ac0d-43d0-a41d-72f23cea3008")
+		)
+		(pin "7"
+			(uuid "f252ac68-3906-42e8-8e6e-21e0361517ce")
+		)
+		(pin "9"
+			(uuid "58d58e0a-9be4-404c-bd96-ac9bde514eab")
+		)
+		(pin "12"
+			(uuid "bbd7ab93-d00d-4e4f-b861-8b4fb0f00a3a")
+		)
+		(pin "15"
+			(uuid "88a7ad7e-71e0-474f-9aa6-93b4afb406aa")
+		)
+		(pin "2"
+			(uuid "a258c9a9-4e47-4464-a0bb-7e45236cd70d")
+		)
+		(pin "16"
+			(uuid "6985f721-9899-4d2e-8f86-0c2117084c5b")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 77.47 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "400bd0f4-23f1-4696-bb88-90a9e16d96a8")
+		(property "Reference" "U7"
+			(at 249.936 72.898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.428 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b72")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c16412f")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1b")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d56")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd46")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0e9")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f999")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c8276")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7692")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a88d")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76523")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b33")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a419d")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf3")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 116.84 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49557029-6290-4244-9854-8e567e16c9d2")
+		(property "Reference" "D22"
+			(at 113.284 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 115.824 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 116.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8392fed-6ac8-449a-b912-1ece3741f0c4")
+		)
+		(pin "2"
+			(uuid "95401c38-fae4-42b6-b7b5-bbb3c4937639")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 24.13 0)
+		(unit 1)
+		(body_style 1)		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d80a35b-f492-48f7-bb41-548a9eb4c046")
+		(property "Reference" "D7"
+			(at 92.3925 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 92.3925 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e92ffaf-bcc0-4fdf-857e-13d4bd67f87c")
+		)
+		(pin "2"
+			(uuid "52c035ea-f144-449c-bcb0-5ef6733228e8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 129.54 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "557ed89d-d002-4cd9-b645-963a28b3e318")
+		(property "Reference" "D19"
+			(at 124.714 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 127.254 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 129.54 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7340f23-ad70-4d6a-aaa8-dbff3b74ca23")
+		)
+		(pin "1"
+			(uuid "b1f1442e-6103-463b-9d56-f6595b1b638f")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f6506f-6465-43eb-8bfe-166c6e21c418")
+		(property "Reference" "R17"
+			(at 139.7 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 139.7 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.382 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bed46c46-f0b0-4934-82fb-0ce9840d31d7")
+		)
+		(pin "1"
+			(uuid "6c56977a-49aa-455a-b0ef-bee6db4126e6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 111.76 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "561b49ef-bdd0-481d-ad35-5bafdd183053")
+		(property "Reference" "D23"
+			(at 107.696 178.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 110.236 178.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 111.76 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8978d51f-9a79-49eb-bf63-c09830384402")
+		)
+		(pin "2"
+			(uuid "7353c2c7-861b-45b9-be3a-38a38a6ac65c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 125.73 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5854c741-87f0-442f-8c82-d638cb249c7d")
+		(property "Reference" "D20"
+			(at 120.904 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 123.444 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c052c041-fa8e-4dcf-9561-5cc34cbdc4a6")
+		)
+		(pin "2"
+			(uuid "c6b2b445-3b78-4c92-83d9-a07f5aac9eb7")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bf4975e-739c-4590-99f3-8cf9fd8bdd18")
+		(property "Reference" "R16"
+			(at 144.78 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 144.78 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.462 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5e94fea-5c52-458e-959c-f9da65faffd8")
+		)
+		(pin "2"
+			(uuid "0f7cb04d-8bd2-4ccd-8f82-0ab1afc67de8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 172.72 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61bf958c-9842-43ef-9583-edc9b7e8c799")
+		(property "Reference" "D9"
+			(at 167.132 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 168.91 173.736 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 172.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c66112a8-1661-4727-ad7c-db7ade9f1f73")
+		)
+		(pin "1"
+			(uuid "0eb14553-8cb3-4035-9b34-bab9d97d1a99")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cc4ed58-d0e9-4b98-a65c-79c5be0d86cc")
+		(property "Reference" "U8"
+			(at 247.65 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 247.65 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "527d4de6-b5ad-40d2-be45-e1cd8162203f")
+		)
+		(pin "1"
+			(uuid "b8693fc8-0db4-4189-a267-a682679058f6")
+		)
+		(pin "2"
+			(uuid "080f837a-d3c4-4560-a320-1525b31e7850")
+		)
+		(pin "3"
+			(uuid "6adf9148-acb0-4420-998a-09547d420b54")
+		)
+		(pin "4"
+			(uuid "1d0a1b42-d0c6-4382-b135-8877906ffb3c")
+		)
+		(pin "5"
+			(uuid "672d7892-0aa2-45b6-9940-6de5160db2a6")
+		)
+		(pin "6"
+			(uuid "9db98127-b5f9-42d2-936e-a72623855e50")
+		)
+		(pin "10"
+			(uuid "22213cbe-3e3b-46b4-8d3f-50d3f784cae5")
+		)
+		(pin "11"
+			(uuid "9694dc2f-7ff3-4988-b9a5-91cf50ad3735")
+		)
+		(pin "9"
+			(uuid "87be402d-3f04-43f6-a336-8b57322ab3b8")
+		)
+		(pin "12"
+			(uuid "af15d8b1-0d57-410b-90b7-f9a473f73b27")
+		)
+		(pin "13"
+			(uuid "f28ad956-c4bb-497c-909f-3fdf7f9f6f73")
+		)
+		(pin "7"
+			(uuid "625b0e77-b079-480d-950f-d4dc29d76038")
+		)
+		(pin "14"
+			(uuid "b92a04d5-2550-440b-b38d-919261aa3e34")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 147.32 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e0aa8d7-58ef-4962-9cfa-f0726f930fe9")
+		(property "Reference" "D14"
+			(at 145.034 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 145.034 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdbd3e5f-488c-4469-a065-15f386e8356e")
+		)
+		(pin "2"
+			(uuid "7404daa6-8534-4fdd-9361-0444b8ea3c6d")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed3ac1b-59df-4587-91dd-a802e7e8566c")
+		(property "Reference" "R25"
+			(at 104.14 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 104.14 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.822 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3515f132-cb48-4d46-b52f-ca96c0296c49")
+		)
+		(pin "2"
+			(uuid "e64f32bd-17d6-4626-af1f-ceb9a42f67d6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 21.59 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eec7918-d747-4108-95e7-a5bf5e0aa73c")
+		(property "Reference" "U3"
+			(at 26.67 118.1182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 26.67 120.6582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 21.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 21.59 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "add96470-d3b7-489d-9a41-8bb0b9e94944")
+		)
+		(pin "1"
+			(uuid "3f0d1ee2-86b8-4001-b0d5-33ad8a9a5773")
+		)
+		(pin "3"
+			(uuid "57980d7c-8370-40d2-805d-86a073aee58d")
+		)
+		(pin "4"
+			(uuid "b1de2ce9-bba0-43af-b479-7e866eadcd32")
+		)
+		(pin "5"
+			(uuid "72904255-3ee1-41fd-8580-2f400848d646")
+		)
+		(pin "6"
+			(uuid "6a41513c-6e57-4847-8ccc-f0914bbc2466")
+		)
+		(pin "8"
+			(uuid "5744f9ce-7744-476b-99e7-a1ab15fb3bcf")
+		)
+		(pin "9"			(uuid "3819c06c-2738-4b16-ac7f-d772bfdfa0b8")
+		)
+		(pin "10"
+			(uuid "42e7a499-9fab-4c69-849d-7b9628742c9b")
+		)
+		(pin "12"
+			(uuid "fe9da903-d9bd-436f-ab8a-4acb20c17ef1")
+		)
+		(pin "11"
+			(uuid "61c3108e-8cb5-4d78-a443-4def9bececd6")
+		)
+		(pin "14"
+			(uuid "e6ed2a37-f3e9-4f32-bd26-524b24f202f1")
+		)
+		(pin "13"
+			(uuid "28823d08-ae62-4c2b-bc2d-a35b001756d8")
+		)
+		(pin "7"
+			(uuid "ea75b1d1-3caf-4f3e-8e33-81d40b23418a")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ca8fc1-0ce2-4358-b55e-cbacbffad16e")
+		(property "Reference" "R14"
+			(at 154.94 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 154.94 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 150.622 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5e7a18c-5df2-4e23-88ae-3f4bd8419214")
+		)
+		(pin "1"
+			(uuid "42e0d9d7-7a83-4cab-8ea5-13c9b170e5d6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 147.32 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "745d91f5-881b-429a-bf14-196c83a827bd")
+		(property "Reference" "U8"
+			(at 249.682 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.682 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "527d4de6-b5ad-40d2-be45-e1cd81622040")
+		)
+		(pin "1"
+			(uuid "b8693fc8-0db4-4189-a267-a682679058f7")
+		)
+		(pin "2"
+			(uuid "080f837a-d3c4-4560-a320-1525b31e7851")
+		)
+		(pin "3"
+			(uuid "6adf9148-acb0-4420-998a-09547d420b55")
+		)
+		(pin "4"
+			(uuid "1d0a1b42-d0c6-4382-b135-8877906ffb3d")
+		)
+		(pin "5"
+			(uuid "672d7892-0aa2-45b6-9940-6de5160db2a7")
+		)
+		(pin "6"
+			(uuid "9db98127-b5f9-42d2-936e-a72623855e51")
+		)
+		(pin "10"
+			(uuid "22213cbe-3e3b-46b4-8d3f-50d3f784cae6")
+		)
+		(pin "11"
+			(uuid "9694dc2f-7ff3-4988-b9a5-91cf50ad3736")
+		)
+		(pin "9"
+			(uuid "87be402d-3f04-43f6-a336-8b57322ab3b9")
+		)
+		(pin "12"
+			(uuid "af15d8b1-0d57-410b-90b7-f9a473f73b28")
+		)
+		(pin "13"
+			(uuid "f28ad956-c4bb-497c-909f-3fdf7f9f6f74")
+		)
+		(pin "7"
+			(uuid "625b0e77-b079-480d-950f-d4dc29d76039")
+		)
+		(pin "14"
+			(uuid "b92a04d5-2550-440b-b38d-919261aa3e35")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U8")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:KM28C64A")
+		(at 171.45 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "759fdc98-d0c8-4197-bc87-47f6e7c0f632")
+		(property "Reference" "U5"
+			(at 173.5933 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KM28C64A"
+			(at 173.5933 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tvsat.com.pl/PDF/K/km28c64_sam.pdf"
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EEPROM 8K x 8, 5V, Not  in Production, DIP-28"
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0f06464e-3484-4fd8-8054-8c7dc88fec3f")
+		)
+		(pin "1"
+			(uuid "e5c21915-0c9a-446a-9c4f-76582de5e5d7")
+		)
+		(pin "2"
+			(uuid "db7d3bc8-fffb-477d-af75-0dadecb9054e")
+		)
+		(pin "3"
+			(uuid "3491ab77-9c07-4da6-abca-102943b4141b")
+		)
+		(pin "5"
+			(uuid "0583fd43-6035-4108-94f4-178a94c2d8cd")
+		)
+		(pin "6"
+			(uuid "bcf951b7-d1b1-46f5-9426-780a2dd60c94")
+		)
+		(pin "7"
+			(uuid "83d5d60a-4e2b-429a-baf7-e22dac26b86e")
+		)
+		(pin "8"
+			(uuid "50e74582-5223-4101-b2f6-de2590eaa463")
+		)
+		(pin "11"
+			(uuid "93b8cad8-72ee-430a-8ef6-f876778986bd")
+		)
+		(pin "10"
+			(uuid "88f63f9f-fc6f-4f8b-8b74-802c97db0741")
+		)
+		(pin "12"
+			(uuid "446db903-b293-46d9-8873-a60d7fc16174")
+		)
+		(pin "13"
+			(uuid "57543619-4aca-458c-ba0e-67a6300f17ea")
+		)
+		(pin "9"
+			(uuid "331354ca-b7e8-444e-81f5-08aa0a8e84f4")
+		)
+		(pin "14"
+			(uuid "e1a8cf5a-3dbb-4cd0-a1de-91326e8cddf8")
+		)
+		(pin "17"
+			(uuid "a0bb79ee-3f36-45b5-96a2-4ad514579e82")
+		)
+		(pin "28"
+			(uuid "f32d79e8-2a35-4197-b846-067de994eaca")
+		)
+		(pin "18"
+			(uuid "eacb0285-c038-4d68-9f54-7bf9ea9a0e01")
+		)
+		(pin "19"
+			(uuid "ff912fd6-415d-41a2-9e33-c0de1e2df627")
+		)
+		(pin "20"
+			(uuid "e7a00200-df27-4e80-87eb-6d1ae8abb265")
+		)
+		(pin "25"
+			(uuid "573b73c5-ca10-4336-b728-60eec6181315")
+		)
+		(pin "16"
+			(uuid "428d435c-ce66-4d38-9430-0dc79605c651")
+		)
+		(pin "23"
+			(uuid "3fee3be2-39bf-4b9f-a57b-6b8edbd2307f")
+		)
+		(pin "22"
+			(uuid "39959e39-f2aa-4335-9833-1727646df45d")
+		)
+		(pin "15"
+			(uuid "87f9c192-37c6-4bf7-abeb-5fb55f94e554")
+		)
+		(pin "21"
+			(uuid "46b2cc8c-0fbe-4388-96e6-db849ef0b212")
+		)
+		(pin "24"
+			(uuid "848f7a3a-90c1-4e25-bce2-9ee37132122c")
+		)
+		(pin "26"
+			(uuid "0e1ee0cf-9bef-4975-9604-75928260b25c")
+		)
+		(pin "27"
+			(uuid "6194a9dc-f9fb-4804-b183-54bfd61d1238")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 157.48 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "781dc7b4-ea96-4637-87c8-f206fe3a423a")
+		(property "Reference" "D12"
+			(at 155.194 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 160.782 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 157.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44c23f92-e367-4840-aa77-f01368281122")
+		)
+		(pin "2"
+			(uuid "f1771b61-47ac-4a43-926a-47b08017d5d9")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d84214c-a9ae-4cfe-8d7d-9d3ec7471c2c")
+		(property "Reference" "#PWR013"
+			(at 171.45 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84454c81-dcd3-4a43-8485-a0ac47a81832")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "815bbd3d-c194-42b5-8f62-6e68d902f1a5")
+		(property "Reference" "R3"
+			(at 73.6601 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 71.12 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 27.432 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75aefe9b-e6fd-433e-9150-96ecc4ffc988")
+		)
+		(pin "1"
+			(uuid "033a9012-99b9-490d-be77-d023c4616133")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef8d8c4-41a1-4652-9679-effac0fbe35a")
+		(property "Reference" "D1"
+			(at 59.3725 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.3725 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ae2d143-6c27-43d4-8d00-1613b6e59e1e")
+		)
+		(pin "1"
+			(uuid "9f09418f-a533-4f12-b411-d52bde0cc0ac")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fe7fd7a-1e8f-4924-8a2d-8321360af0ad")
+		(property "Reference" "R9"
+			(at 87.6301 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 84.836 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 24.892 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c15dc6b4-1b64-425f-9203-e9e5ca25b615")
+		)
+		(pin "2"
+			(uuid "f6fd2b22-9cf7-468c-bad5-a926bafc784c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8feeed89-183d-480b-abc1-33b568fbefdf")
+		(property "Reference" "#PWR06"
+			(at 99.06 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 99.314 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 99.06 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4ebebd9-8861-411a-b772-7305df1bdf47")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9180981a-b8c2-4e4a-b594-7efee49b2b0c")
+		(property "Reference" "#PWR011"
+			(at 82.55 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa178f7f-6b9b-473d-91f9-fe13cd7e82e0")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a2b059-25dc-4d92-9012-26711f76d41d")
+		(property "Reference" "D3"
+			(at 59.3725 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.3725 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)			)
+		)
+		(property "Footprint" ""
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c23c85a-e461-4376-883d-cdc64e4c8d68")
+		)
+		(pin "1"
+			(uuid "abb16ef4-79cd-4ffc-8c52-e93ea52e0609")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 85.09 0)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9850fbbe-cf64-4b8e-81a7-9386d591d5ed")
+		(property "Reference" "U7"
+			(at 249.428 80.772 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 250.19 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b73")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c164130")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1c")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d57")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd47")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0ea")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f99a")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c8277")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7693")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a88e")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76524")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b34")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a419e")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf4")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 31.75 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "985ceb48-9522-467e-9d14-4a81e550ada7")
+		(property "Reference" "SW1"
+			(at 31.75 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 31.75 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d49ec2d4-23d8-4da1-a383-6e237942be3d")
+		)
+		(pin "2"
+			(uuid "93557ea2-c168-4f92-90af-0b2313c50e3b")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 142.24 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9979bf69-da9a-48eb-8050-ec7a749e2a52")
+		(property "Reference" "D16"
+			(at 137.414 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 139.954 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fb32ee2-9200-4191-89eb-2d84cbb34247")
+		)
+		(pin "2"
+			(uuid "587a72fe-308a-4d35-bfa6-970ac5bdc110")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e8fd2a3-a290-492d-966a-c8f79b309d96")
+		(property "Reference" "R5"
+			(at 73.6601 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 70.866 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 31.242 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f038883-7f71-4ab4-acb5-d5b0fcb5f333")
+		)
+		(pin "1"
+			(uuid "49b3ccf0-4e15-4c00-a580-d47fa5c0bb36")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 58.42 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2bf45ea-185b-419a-ba63-0ae6ab006ec3")
+		(property "Reference" "U4"
+			(at 58.4283 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 58.4283 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 58.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 58.42 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "93b32e87-fac8-431f-890a-6c96f947f67d")
+		)
+		(pin "2"
+			(uuid "57c3e616-ef91-4479-9088-78f0fa7d73d7")
+		)
+		(pin "3"
+			(uuid "a31c05fa-0ff0-4f39-a415-b51f4a10fe89")
+		)
+		(pin "5"
+			(uuid "66449887-44e6-47e8-9cfb-282e2ba9270b")
+		)
+		(pin "10"
+			(uuid "4fb27051-5e44-45ae-9101-7c0194536382")
+		)
+		(pin "1"
+			(uuid "3d3ccc42-5bcf-4e46-8b2c-2051576a05fa")
+		)
+		(pin "4"
+			(uuid "495098fd-3d55-4795-a24a-da628265e5e5")
+		)
+		(pin "9"
+			(uuid "c2a5f467-031e-4c67-aeee-2e6e49cea189")
+		)
+		(pin "11"
+			(uuid "21aaa42b-46b0-404d-a4eb-02e0101d58dc")
+		)
+		(pin "7"
+			(uuid "88f81e24-d893-4536-a081-fc0e910fa3d1")
+		)
+		(pin "8"
+			(uuid "460fb940-dd61-4a0f-9e93-7018a765b14e")
+		)
+		(pin "6"
+			(uuid "e09fb545-01b1-4580-b020-f715f9b6c71d")
+		)
+		(pin "13"
+			(uuid "5591b243-45f9-42a6-b244-610377dc3b5e")
+		)
+		(pin "14"
+			(uuid "7f4e8de3-3676-441e-8174-4f851cfea487")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d3b3c1-81b8-4a3f-ab7e-9b7dd3ebf8d4")
+		(property "Reference" "R15"
+			(at 149.86 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 149.86 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.542 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85638927-30f0-4633-a0bc-758e1aecda5e")
+		)
+		(pin "2"
+			(uuid "4dd191ee-3b1e-49d3-93ea-43bd95ca90a7")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40b098e-3396-40a4-a6ea-7b0fd8b55ecf")
+		(property "Reference" "R24"
+			(at 109.22 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 109.22 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.902 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a4bed5-91d5-4f45-a62f-4a2dcb1cae21")
+		)
+		(pin "2"
+			(uuid "0706f46e-16ba-49b8-bf73-bca7fdff5184")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 62.23 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a48e50fd-3501-43c4-8b45-b485af8c3db1")
+		(property "Reference" "U7"
+			(at 249.428 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 248.666 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b74")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c164131")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1d")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d58")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd48")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0eb")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f99b")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c8278")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7694")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a88f")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76525")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b35")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a419f")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf5")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 101.6 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a52c5e66-f80e-41fa-9f24-7818822c8641")
+		(property "Reference" "D15"
+			(at 100.584 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 103.124 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 101.6 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aeb43de9-716a-4d55-ae76-c43877251064")
+		)
+		(pin "2"
+			(uuid "4f4752b8-952c-4d12-b848-9637391ba7c8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a797dac5-df6e-4fbb-9c6c-a46d38539264")
+		(property "Reference" "#PWR07"
+			(at 99.06 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67d250f6-bae0-4ac3-85f1-c36ceb8685f6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS00")
+		(at 78.74 162.56 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a94fc017-5713-4f8e-9d07-87ff2e2459d5")
+		(property "Reference" "U4"
+			(at 78.7317 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS00"
+			(at 78.7317 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 78.74 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "quad 2-input NAND gate"
+			(at 78.74 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "93b32e87-fac8-431f-890a-6c96f947f67e")
+		)
+		(pin "2"
+			(uuid "57c3e616-ef91-4479-9088-78f0fa7d73d8")
+		)
+		(pin "3"
+			(uuid "a31c05fa-0ff0-4f39-a415-b51f4a10fe8a")
+		)
+		(pin "5"
+			(uuid "66449887-44e6-47e8-9cfb-282e2ba9270c")
+		)
+		(pin "10"
+			(uuid "4fb27051-5e44-45ae-9101-7c0194536383")
+		)
+		(pin "1"
+			(uuid "3d3ccc42-5bcf-4e46-8b2c-2051576a05fb")
+		)
+		(pin "4"
+			(uuid "495098fd-3d55-4795-a24a-da628265e5e6")
+		)
+		(pin "9"
+			(uuid "c2a5f467-031e-4c67-aeee-2e6e49cea18a")
+		)
+		(pin "11"
+			(uuid "21aaa42b-46b0-404d-a4eb-02e0101d58dd")
+		)
+		(pin "7"
+			(uuid "88f81e24-d893-4536-a081-fc0e910fa3d2")
+		)
+		(pin "8"
+			(uuid "460fb940-dd61-4a0f-9e93-7018a765b14f")
+		)
+		(pin "6"
+			(uuid "e09fb545-01b1-4580-b020-f715f9b6c71e")
+		)
+		(pin "13"
+			(uuid "5591b243-45f9-42a6-b244-610377dc3b5f")
+		)
+		(pin "14"
+			(uuid "7f4e8de3-3676-441e-8174-4f851cfea488")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab8bbc05-2d05-45f4-a592-0d4f31c73fc7")
+		(property "Reference" "#PWR014"
+			(at 171.45 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.148 143.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "165d4f9f-2c2f-4cce-a40d-0d3146e689f7")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abaa7e38-3059-4f28-bf2c-29511b0d4314")
+		(property "Reference" "D6"
+			(at 92.3925 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LEDs"
+			(at 96.52 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "454f3158-c478-4e56-9e46-bf2eb1703a3c")
+		)
+		(pin "2"
+			(uuid "c40eeb5c-d195-479e-9106-c1956249bbe4")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 133.35 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad4d37fb-1e6c-4285-b10f-941af1619648")
+		(property "Reference" "D18"
+			(at 128.524 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 131.064 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 133.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56757818-6c71-489f-9567-d5709b320325")
+		)
+		(pin "2"
+			(uuid "8ddb8815-421e-4281-87ed-0c3446009754")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 106.68 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b9c5a6-9905-4374-8dc0-40f96eaee72e")
+		(property "Reference" "D24"
+			(at 102.87 178.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 105.41 178.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 106.68 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72e1e4d5-9f9b-4dd4-ba11-10407cf8b890")
+		)
+		(pin "1"
+			(uuid "0bd934cc-7e97-47ac-81a2-224e204b05bb")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 124.46 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8951e90-2f26-4f6c-8464-f3c765366b9a")
+		(property "Reference" "U8"
+			(at 249.428 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.428 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "527d4de6-b5ad-40d2-be45-e1cd81622041")
+		)
+		(pin "1"
+			(uuid "b8693fc8-0db4-4189-a267-a682679058f8")
+		)
+		(pin "2"
+			(uuid "080f837a-d3c4-4560-a320-1525b31e7852")
+		)
+		(pin "3"
+			(uuid "6adf9148-acb0-4420-998a-09547d420b56")
+		)
+		(pin "4"
+			(uuid "1d0a1b42-d0c6-4382-b135-8877906ffb3e")
+		)
+		(pin "5"
+			(uuid "672d7892-0aa2-45b6-9940-6de5160db2a8")
+		)
+		(pin "6"
+			(uuid "9db98127-b5f9-42d2-936e-a72623855e52")
+		)
+		(pin "10"
+			(uuid "22213cbe-3e3b-46b4-8d3f-50d3f784cae7")
+		)
+		(pin "11"
+			(uuid "9694dc2f-7ff3-4988-b9a5-91cf50ad3737")
+		)
+		(pin "9"
+			(uuid "87be402d-3f04-43f6-a336-8b57322ab3ba")
+		)
+		(pin "12"
+			(uuid "af15d8b1-0d57-410b-90b7-f9a473f73b29")
+		)
+		(pin "13"
+			(uuid "f28ad956-c4bb-497c-909f-3fdf7f9f6f75")
+		)
+		(pin "7"
+			(uuid "625b0e77-b079-480d-950f-d4dc29d7603a")
+		)
+		(pin "14"
+			(uuid "b92a04d5-2550-440b-b38d-919261aa3e36")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 162.56 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b984f26b-b03d-47a3-ac82-4a2b29e0697e")
+		(property "Reference" "D11"
+			(at 157.734 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 160.274 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 162.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 162.56 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6257bb52-5a76-4a40-862e-d8c46ad2507c")
+		)
+		(pin "2"
+			(uuid "9c691f20-e027-4fe2-b96a-25bdb20827dd")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 82.55 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0cc9a2f-2c81-4e2f-a37c-08fde8750e07")
+		(property "Reference" "#PWR05"
+			(at 82.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 82.55 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 82.55 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d629b87-45c4-44b0-8fd3-7602bdfaeca9")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c232737b-919b-4d28-824e-af1fbbad507a")
+		(property "Reference" "R4"
+			(at 73.6601 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 70.612 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 35.052 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "248c1e2d-d095-408a-a116-1b81f1a96e16")
+		)
+		(pin "1"
+			(uuid "76dcf7b3-da14-4d9e-9110-013301d813bf")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca007172-f2aa-4705-8ab2-6dc5a1c84de0")
+		(property "Reference" "#PWR016"
+			(at 135.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 196.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4890ce5c-5833-4b35-858e-57df1c101c7b")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 25.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cadd4242-3c7a-4d77-ae1a-fb9ee4db56d0")
+		(property "Reference" "R2"
+			(at 73.6601 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 70.612 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 23.622 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "62c63905-4de0-40c3-88f2-f9d9a11c681c")
+		)
+		(pin "1"
+			(uuid "8dc013fd-0f63-43f9-ad93-63052856732b")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 57.15 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caeded68-1137-4251-b67f-079ce2a511a8")
+		(property "Reference" "#PWR01"			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 57.15 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 57.15 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6482f5f2-62dd-4a07-91a9-8b278053dddb")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc28116b-b0f6-46f3-af4a-3db31853a0d1")
+		(property "Reference" "R18"
+			(at 135.89 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 135.89 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 131.572 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea405d82-e690-47e5-9324-bae7466de055")
+		)
+		(pin "2"
+			(uuid "b3e999ac-caca-4c8c-b805-22f2f3564768")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdca1ffe-253a-4703-9547-9186d107aded")
+		(property "Reference" "R12"
+			(at 165.1 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 165.1 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.782 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfd8b40f-a0b2-465f-9ece-d4c714932489")
+		)
+		(pin "2"
+			(uuid "a83593e3-35ff-48f3-bb56-c04189b8483c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d08a0f1a-9a94-4d0e-8169-e280b4cee9e9")
+		(property "Reference" "R19"
+			(at 132.08 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 132.08 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.762 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24d22a8f-8afc-4958-ac19-bc5fd5b8dfbf")
+		)
+		(pin "2"
+			(uuid "160fa284-8722-4d03-b898-18712c9789c9")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3adde2f-0192-4b2a-b038-489d8e40d349")
+		(property "Reference" "#PWR03"
+			(at 76.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94506f81-523d-483c-ae31-4391a4771f1a")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 78.74 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d844af71-8e7e-4014-b370-3b109f65a74a")
+		(property "Reference" "#PWR08"
+			(at 78.74 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 78.74 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 78.74 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c80efd51-0672-4fd0-91ba-05dc19cde825")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:KM28C64A")
+		(at 171.45 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd22dbc5-f2c0-4925-9ef6-6fb06fd437c5")
+		(property "Reference" "U6"
+			(at 173.5933 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KM28C64A"
+			(at 173.5933 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+			(at 171.45 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://tvsat.com.pl/PDF/K/km28c64_sam.pdf"
+			(at 171.45 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EEPROM 8K x 8, 5V, Not  in Production, DIP-28"
+			(at 171.45 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b63afd7d-9bea-4463-8147-ecc01426fc5a")
+		)
+		(pin "9"
+			(uuid "1f597634-e572-4dc5-8cf9-d61051bb56f3")
+		)
+		(pin "18"
+			(uuid "3dcec8ac-9885-4720-8f9f-b4c076d5f360")
+		)
+		(pin "22"
+			(uuid "a418790f-88f1-4f10-a56b-ee2d9a171ea8")
+		)
+		(pin "27"
+			(uuid "6ffd85b5-121e-486d-ac1d-d3403f032e5d")
+		)
+		(pin "12"
+			(uuid "c0f28405-b755-428f-b105-d45f29e1f775")
+		)
+		(pin "10"
+			(uuid "7d2ce59f-d087-4e7c-aec5-eaa45c4f5942")
+		)
+		(pin "14"
+			(uuid "5cac33a8-285a-4963-9c91-c3f8d7a06c25")
+		)
+		(pin "17"
+			(uuid "0fabda2c-1667-49b8-9e44-ba00faf161a6")
+		)
+		(pin "24"
+			(uuid "31a99dc9-a773-4b60-b848-bfa31c84a9ec")
+		)
+		(pin "23"
+			(uuid "2bf13922-1952-4773-95f7-4e117b8b8bf7")
+		)
+		(pin "26"
+			(uuid "1b79c818-70d7-4e42-b798-2d12b2feb171")
+		)
+		(pin "8"
+			(uuid "a8fdd780-5070-4939-841a-b072fca161cd")
+		)
+		(pin "5"
+			(uuid "b5971650-8bc1-44df-9e36-755192c5684e")
+		)
+		(pin "6"
+			(uuid "709b1f84-49cc-46cb-95f7-a9a2977840be")
+		)
+		(pin "7"
+			(uuid "afb97199-8213-4748-a1c4-da2d878d478f")
+		)
+		(pin "13"
+			(uuid "d1e8c6f9-5c15-4277-aa99-6044075ed9c3")
+		)
+		(pin "15"
+			(uuid "8a0974e9-7c02-4124-b214-5a01fad74fff")
+		)
+		(pin "3"
+			(uuid "a964dac0-009d-4e04-bbe9-cb67e7f9e723")
+		)
+		(pin "11"
+			(uuid "681ebc20-cb5a-459d-b93f-adc1252c0679")
+		)
+		(pin "16"
+			(uuid "495609a1-a49d-4939-a846-5fb3e4c0fbc3")
+		)
+		(pin "1"
+			(uuid "4b0b7e3b-9738-401d-86cc-cd8f9e01ad95")
+		)
+		(pin "2"
+			(uuid "9b577b16-b906-4192-be29-324cb093ae1c")
+		)
+		(pin "20"
+			(uuid "cd70e005-4938-488f-acaa-fa3b3d147f90")
+		)
+		(pin "21"
+			(uuid "f25706cf-9213-4ed6-9611-5d3537a90ff1")
+		)
+		(pin "19"
+			(uuid "d1f02ca5-b078-4d91-988e-60c1c427184c")
+		)
+		(pin "25"
+			(uuid "0a8c1664-ec4e-4df6-9fb8-adb18cf00de7")
+		)
+		(pin "28"
+			(uuid "7751524b-a370-417d-b297-40cace3fdfa6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddfb8a0d-de24-4323-ab25-e3004b40e78e")
+		(property "Reference" "D5"
+			(at 59.3725 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.3725 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "140a83dd-f9fa-4c8f-8ee4-586dd3d26c56")
+		)
+		(pin "2"
+			(uuid "6dbe0130-ada1-4a41-af8f-6a189e834099")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de83acaf-5a85-46ba-8f4c-089c851139f2")
+		(property "Reference" "R10"
+			(at 174.5311 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 174.5311 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.942 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cae98c7-bf87-44a6-9d9f-37288e4955c9")
+		)
+		(pin "2"
+			(uuid "3c4406e3-3b52-46ab-a97d-c4dd6df58246")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfa79011-c850-4659-a465-f8e354ba81ce")
+		(property "Reference" "D13"
+			(at 150.114 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 152.654 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40ac26bc-4f47-4604-9fd3-dfa69cb1533f")
+		)
+		(pin "1"
+			(uuid "9abedf49-9bff-437b-b5df-9a13bee1c4e7")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 147.32 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2c9d197-3ba3-4828-93c7-9a4b1620906d")
+		(property "Reference" "#PWR015"
+			(at 147.32 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 147.32 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 147.32 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3de7c633-4c9c-4bd9-ae88-6b9760acda9e")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ced531-4bfb-46b2-a75f-56d6f4492044")
+		(property "Reference" "R21"
+			(at 124.46 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 124.46 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.142 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa6e8ad6-7eb5-4b66-94c0-16e929b1b850")
+		)
+		(pin "2"
+			(uuid "765d166a-85c0-457d-a68f-ad5509f64bf8")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e67e63b7-8869-4d89-8cac-e7a7ef1a6c5b")
+		(property "Reference" "#PWR04"
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6909255-7454-4dfc-8ae6-5a1b03c59cfa")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 69.85 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec39fdaa-c114-4f35-9bcf-f50bee2dddf6")
+		(property "Reference" "U7"
+			(at 249.428 65.532 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.174 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b75")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c164132")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1e")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d59")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd49")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0ec")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f99c")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c8279")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7695")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a890")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76526")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b36")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a41a0")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf6")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 60.96 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef8cf9e8-133d-40f2-a6e2-4085148a63c6")
+		(property "Reference" "D4"
+			(at 59.3725 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 59.3725 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba5fac89-ba8f-4d30-9e21-60fe017f021d")
+		)
+		(pin "1"
+			(uuid "258328ab-dbd0-4e66-9dfb-efd9295d163c")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 24.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f02b5af3-2142-4f6c-bda5-29016c663c8f")
+		(property "Reference" "R8"
+			(at 87.6301 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 84.582 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 22.352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99138f82-c3ba-448d-8b9d-3a0e95b073ff")
+		)
+		(pin "2"
+			(uuid "575e2593-e3fe-4c60-8249-4d26bc48976b")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0804946-35ba-4c89-8e24-cff49293bf76")
+		(property "Reference" "#PWR02"
+			(at 76.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 41.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8065eeb-332c-470e-8102-0458637d5ae3")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 154.94 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f838edff-4f71-43d0-bdb7-7bebffcc56b3")
+		(property "Reference" "U8"
+			(at 250.19 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.936 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "527d4de6-b5ad-40d2-be45-e1cd81622042")
+		)
+		(pin "1"
+			(uuid "b8693fc8-0db4-4189-a267-a682679058f9")
+		)
+		(pin "2"
+			(uuid "080f837a-d3c4-4560-a320-1525b31e7853")
+		)
+		(pin "3"
+			(uuid "6adf9148-acb0-4420-998a-09547d420b57")
+		)
+		(pin "4"
+			(uuid "1d0a1b42-d0c6-4382-b135-8877906ffb3f")
+		)
+		(pin "5"
+			(uuid "672d7892-0aa2-45b6-9940-6de5160db2a9")
+		)
+		(pin "6"
+			(uuid "9db98127-b5f9-42d2-936e-a72623855e53")
+		)
+		(pin "10"
+			(uuid "22213cbe-3e3b-46b4-8d3f-50d3f784cae8")
+		)
+		(pin "11"
+			(uuid "9694dc2f-7ff3-4988-b9a5-91cf50ad3738")
+		)
+		(pin "9"
+			(uuid "87be402d-3f04-43f6-a336-8b57322ab3bb")
+		)
+		(pin "12"
+			(uuid "af15d8b1-0d57-410b-90b7-f9a473f73b2a")
+		)
+		(pin "13"
+			(uuid "f28ad956-c4bb-497c-909f-3fdf7f9f6f76")
+		)
+		(pin "7"
+			(uuid "625b0e77-b079-480d-950f-d4dc29d7603b")
+		)
+		(pin "14"
+			(uuid "b92a04d5-2550-440b-b38d-919261aa3e37")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U8")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb58471b-6535-41f4-ad7b-f645cfc01faf")
+		(property "Reference" "D8"
+			(at 92.3925 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 90.17 31.242 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a5b8418-763d-461c-96aa-0f407904af83")
+		)
+		(pin "1"
+			(uuid "958954bb-7ec5-4131-9e6f-082b85ca17af")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 246.38 54.61 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc95c924-cba8-46b6-ac51-4f0fb251feb4")
+		(property "Reference" "U7"
+			(at 249.936 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 249.682 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 246.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 246.38 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f05d42cd-58a7-4189-9950-436fd6031b76")
+		)
+		(pin "13"
+			(uuid "ce63872f-692b-41b4-9ecd-93d83c164133")
+		)
+		(pin "11"
+			(uuid "d5a01438-6c4c-40e0-ab04-3136559d4f1f")
+		)
+		(pin "4"
+			(uuid "3bd667d8-beb9-4806-ac7b-c0b01ba89d5a")
+		)
+		(pin "2"
+			(uuid "4bffcc8f-d31c-43b3-bd50-4159c10dfd4a")
+		)
+		(pin "7"
+			(uuid "3ec03b5c-fcb8-48b6-b61c-c7c8353df0ed")
+		)
+		(pin "8"
+			(uuid "008a7128-b8fd-419b-bda6-e1b0a637f99d")
+		)
+		(pin "14"
+			(uuid "9bbbfab9-7bbe-421e-8afb-c1cd635c827a")
+		)
+		(pin "1"
+			(uuid "ae80b21e-6426-479c-a549-ba7eebec7696")
+		)
+		(pin "12"
+			(uuid "bcdf637f-2e5b-4193-bf4d-bb1ac033a891")
+		)
+		(pin "6"
+			(uuid "52555af0-dcff-4124-b1b7-55d6dfa76527")
+		)
+		(pin "3"
+			(uuid "8708947a-bcb6-4c27-88d1-91a75a1a1b37")
+		)
+		(pin "5"
+			(uuid "e7da20da-71f1-4826-8c56-ed50ce1a41a1")
+		)
+		(pin "9"
+			(uuid "d696d3b5-5e09-4e95-a7f3-9d10c42ffbf7")
+		)
+		(instances
+			(project "Control Logic"
+				(path "/82417e5d-7129-4e3d-8f54-d258ca0e51cd"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
