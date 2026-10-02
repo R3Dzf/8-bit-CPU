@@ -43,7 +43,11 @@ jobs:
 
             mkdir -p "$output_dir"
 
-            kicad-cli sch export svg               --pages 1               --black-and-white               --exclude-drawing-sheet               --output "$output_dir"               "$source_file"
+            kicad-cli sch export svg \
+              --pages 1 \
+              --exclude-drawing-sheet \
+              --output "$output_dir" \
+              "$source_file"
 
             rendered_file="$(find "$output_dir" -maxdepth 1 -type f -name '*.svg' | head -n 1)"
 
@@ -51,6 +55,23 @@ jobs:
               echo "No SVG generated for $source_file"
               exit 1
             fi
+
+            python3 - "$rendered_file" <<'PY'
+import re
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+svg = path.read_text()
+match = re.search(r"<svg\\b[^>]*>", svg, re.DOTALL)
+if match is None:
+    raise SystemExit(f"Could not find SVG root in {path}")
+
+background = '<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>'
+if background not in svg:
+    svg = svg[:match.end()] + "\\n  " + background + svg[match.end():]
+path.write_text(svg)
+PY
 
             cp "$rendered_file" "assets/schematics/$output_name.svg"
           }
@@ -69,8 +90,8 @@ jobs:
       - name: Commit generated previews
         shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Ahmed Youssef Youssef Mansour Bosha"
+          git config user.email "123402823+R3Dzf@users.noreply.github.com"
 
           git add assets/schematics
 
