@@ -20,10 +20,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install KiCad
+      - name: Install KiCad 10
         run: |
           sudo apt-get update
-          sudo apt-get install -y kicad
+          sudo apt-get install -y software-properties-common
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
 
       - name: Export schematic previews
         shell: bash
@@ -40,7 +43,7 @@ jobs:
 
             mkdir -p "$output_dir"
 
-            kicad-cli sch export svg               --plot-one               --black-and-white               --exclude-drawing-sheet               --output "$output_dir"               "$source_file"
+            kicad-cli sch export svg               --pages 1               --black-and-white               --exclude-drawing-sheet               --output "$output_dir"               "$source_file"
 
             rendered_file="$(find "$output_dir" -maxdepth 1 -type f -name '*.svg' | head -n 1)"
 
