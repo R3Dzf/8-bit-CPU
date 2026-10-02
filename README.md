@@ -2,13 +2,13 @@
 
 A modular 8-bit computer designed around discrete TTL logic, a shared data bus, and EEPROM-based microcode control.
 
-This repository documents an academic implementation based on Ben Eater's 8-bit breadboard computer architecture. It includes KiCad schematics created during the project, Arduino EEPROM programming utilities, microcode, and technical references.
+This repository documents an academic 8-bit breadboard CPU implementation. It includes KiCad schematics created during the project, Arduino EEPROM programming utilities, microcode, and technical notes.
 
 <p align="center">
-  <img src="https://shop.eater.net/cdn/shop/products/4-output-control_1500x.jpg?v=1544158171" alt="Ben Eater 8-bit breadboard computer reference build" width="900">
+  <img src="https://shop.eater.net/cdn/shop/products/4-output-control_1500x.jpg?v=1544158171" alt="Example 8-bit breadboard computer" width="900">
 </p>
 
-<p align="center"><sub>Reference build from Ben Eater's 8-bit breadboard computer project.</sub></p>
+<p align="center"><sub>Example 8-bit breadboard computer assembly.</sub></p>
 
 ## Overview
 
@@ -129,7 +129,7 @@ The output module captures values from the bus and drives a decimal display thro
 
 ### ALU and Flags
 
-The architecture uses an 8-bit adder/subtractor together with carry and zero flags. The original project package did not contain a separate team ALU KiCad schematic, so the official reference is linked in `docs/references.md` rather than presented as original work.
+The architecture uses an 8-bit adder/subtractor together with carry and zero flags. A separate ALU KiCad schematic is not included in this repository.
 
 ## Firmware
 
@@ -173,13 +173,11 @@ Start with the clock and register schematics, then review the control-logic sche
 
 The source package was reviewed before publication. Editor lock/history files and empty PCB placeholders were excluded so this repository contains the useful design artifacts rather than generated working files.
 
-See `docs/project-completeness.md` for the detailed review and `docs/references.md` for the external architecture references.
+See `docs/project-completeness.md` for the project inventory and `docs/references.md` for local technical materials.
 
-## Attribution
+## Third-Party License
 
-The architecture follows Ben Eater's educational 8-bit computer series. The EEPROM programming source files originating from Ben Eater are identified in `THIRD_PARTY_NOTICES.md`.
-
-The project-specific KiCad schematics are kept separately from the upstream reference material.
+License terms for included firmware are listed in `THIRD_PARTY_NOTICES.md`.
 
 ## Author
 
