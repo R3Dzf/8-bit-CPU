@@ -29,38 +29,28 @@ The design includes:
 
 ## KiCad Schematic Previews
 
-The previews below are rendered directly from the KiCad source files in this repository, so they reflect the actual project schematics rather than external reference drawings.
+These previews are rendered from the editable KiCad source files. Select a schematic title to open its source.
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<strong>Clock Module</strong><br><br>
-<img src="assets/schematics/clock.svg" alt="Clock module KiCad schematic">
-</td>
-<td width="50%" valign="top">
-<strong>RAM Module</strong><br><br>
-<img src="assets/schematics/ram.svg" alt="RAM module KiCad schematic">
-</td>
+<td width="50%" valign="top"><a href="hardware/clock/clock.kicad_sch"><strong>Clock Module</strong></a><br><img src="assets/schematics/clock.svg" alt="Clock module KiCad schematic" width="100%"></td>
+<td width="50%" valign="top"><a href="hardware/ram-registers/ram.kicad_sch"><strong>RAM</strong></a><br><img src="assets/schematics/ram.svg" alt="RAM KiCad schematic" width="100%"></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<strong>Program Counter</strong><br><br>
-<img src="assets/schematics/program-counter.svg" alt="Program counter KiCad schematic">
-</td>
-<td width="50%" valign="top">
-<strong>Output Module</strong><br><br>
-<img src="assets/schematics/output.svg" alt="Output module KiCad schematic">
-</td>
+<td width="50%" valign="top"><a href="hardware/ram-registers/registers.kicad_sch"><strong>Registers</strong></a><br><img src="assets/schematics/registers.svg" alt="Registers KiCad schematic" width="100%"></td>
+<td width="50%" valign="top"><a href="hardware/ram-registers/instruction-register.kicad_sch"><strong>Instruction Register</strong></a><br><img src="assets/schematics/instruction-register.svg" alt="Instruction register KiCad schematic" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="hardware/ram-registers/product-register.kicad_sch"><strong>Product Register</strong></a><br><img src="assets/schematics/product-register.svg" alt="Product register KiCad schematic" width="100%"></td>
+<td width="50%" valign="top"><a href="hardware/ram-registers/program-counter.kicad_sch"><strong>Program Counter</strong></a><br><img src="assets/schematics/program-counter.svg" alt="Program counter KiCad schematic" width="100%"></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="hardware/output/output.kicad_sch"><strong>Output Module</strong></a><br><img src="assets/schematics/output.svg" alt="Output module KiCad schematic" width="100%"></td>
+<td width="50%" valign="top"><a href="hardware/control-logic/control-logic.kicad_sch"><strong>Control Logic</strong></a><br><img src="assets/schematics/control-logic.svg" alt="Control logic KiCad schematic" width="100%"></td>
 </tr>
 </table>
 
-### Control Logic
-
-<p align="center">
-  <img src="assets/schematics/control-logic.svg" alt="Control logic KiCad schematic" width="900">
-</p>
-
-The editable KiCad sources are available under [hardware/](hardware/). The previews are regenerated automatically when the schematic sources change.
+The preview workflow regenerates these SVGs when a KiCad schematic changes. The project package does not include a separate ALU schematic; see [the references](docs/references.md) for the upstream ALU design.
 
 ## Architecture
 
@@ -100,6 +90,8 @@ The flags-aware microcode implements the conditional `JC` and `JZ` instructions.
 
 ```text
 8-bit-CPU/
+├── assets/
+│   └── schematics/  # Rendered KiCad previews
 ├── docs/
 │   ├── project-completeness.md
 │   └── references.md
