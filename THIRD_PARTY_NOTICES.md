@@ -15,7 +15,7 @@ The upstream project states:
 
 > Copyright 2017 Ben Eater
 
-and identifies the code and schematic as MIT licensed.
+and identifies the code and schematic as MIT licensed. A copy of the MIT license used for these upstream source files is included at `LICENSES/BEN-EATER-MIT.txt`.
 
 The CPU architecture in this repository is also based on Ben Eater's educational 8-bit breadboard computer series.
 
