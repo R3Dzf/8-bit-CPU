@@ -50,8 +50,6 @@ These previews are rendered from the editable KiCad source files. Select a schem
 </tr>
 </table>
 
-The preview workflow regenerates these SVGs when a KiCad schematic changes. The project package does not include a separate ALU schematic; see [the references](docs/references.md) for the upstream ALU design.
-
 ## Architecture
 
 | Module | Role |
