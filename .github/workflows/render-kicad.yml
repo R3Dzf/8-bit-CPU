@@ -80,4 +80,5 @@ jobs:
           fi
 
           git commit -m "Render KiCad schematic previews"
+          git pull --rebase origin main
           git push
