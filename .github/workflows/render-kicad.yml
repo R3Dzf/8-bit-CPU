@@ -1,0 +1,77 @@
+name: Render KiCad schematics
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "hardware/**/*.kicad_sch"
+      - ".github/workflows/render-kicad.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install KiCad
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y kicad
+
+      - name: Export schematic previews
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf assets/schematics .kicad-render
+          mkdir -p assets/schematics .kicad-render
+
+          render_schematic() {
+            source_file="$1"
+            output_name="$2"
+            output_dir=".kicad-render/$output_name"
+
+            mkdir -p "$output_dir"
+
+            kicad-cli sch export svg               --pages 1               --black-and-white               --exclude-drawing-sheet               --output "$output_dir"               "$source_file"
+
+            rendered_file="$(find "$output_dir" -maxdepth 1 -type f -name '*.svg' | head -n 1)"
+
+            if [ -z "$rendered_file" ]; then
+              echo "No SVG generated for $source_file"
+              exit 1
+            fi
+
+            cp "$rendered_file" "assets/schematics/$output_name.svg"
+          }
+
+          render_schematic "hardware/clock/clock.kicad_sch" "clock"
+          render_schematic "hardware/ram-registers/ram.kicad_sch" "ram"
+          render_schematic "hardware/ram-registers/program-counter.kicad_sch" "program-counter"
+          render_schematic "hardware/output/output.kicad_sch" "output"
+          render_schematic "hardware/control-logic/control-logic.kicad_sch" "control-logic"
+
+          rm -rf .kicad-render
+
+      - name: Commit generated previews
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/schematics
+
+          if git diff --cached --quiet; then
+            echo "Schematic previews are already up to date."
+            exit 0
+          fi
+
+          git commit -m "Render KiCad schematic previews"
+          git push
