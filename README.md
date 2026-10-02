@@ -27,6 +27,41 @@ The design includes:
 - EEPROM-based control logic
 - Decimal output display
 
+## KiCad Schematic Previews
+
+The previews below are rendered directly from the KiCad source files in this repository, so they reflect the actual project schematics rather than external reference drawings.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<strong>Clock Module</strong><br><br>
+<img src="assets/schematics/clock.svg" alt="Clock module KiCad schematic">
+</td>
+<td width="50%" valign="top">
+<strong>RAM Module</strong><br><br>
+<img src="assets/schematics/ram.svg" alt="RAM module KiCad schematic">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>Program Counter</strong><br><br>
+<img src="assets/schematics/program-counter.svg" alt="Program counter KiCad schematic">
+</td>
+<td width="50%" valign="top">
+<strong>Output Module</strong><br><br>
+<img src="assets/schematics/output.svg" alt="Output module KiCad schematic">
+</td>
+</tr>
+</table>
+
+### Control Logic
+
+<p align="center">
+  <img src="assets/schematics/control-logic.svg" alt="Control logic KiCad schematic" width="900">
+</p>
+
+The editable KiCad sources are available under [hardware/](hardware/). The previews are regenerated automatically when the schematic sources change.
+
 ## Architecture
 
 | Module | Role |
