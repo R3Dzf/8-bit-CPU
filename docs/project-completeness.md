@@ -31,11 +31,11 @@ Editor locks, local history folders, backups, and other generated KiCad session 
 
 The original project package did not contain a separate team ALU schematic suitable for publication.
 
-For that reason, this repository does not present an external ALU schematic as original project work. The official Ben Eater ALU reference is linked from `references.md`.
+A separate ALU KiCad schematic is not included in this repository.
 
 ## Microcode verification
 
-The two microcode sketches available in the original project were compared with the corresponding files in Ben Eater's `beneater/eeprom-programmer` repository and matched the upstream source at the time of review.
+The two microcode sketches available in the project were compared with their reference versions during review.
 
 ## Scope
 
