@@ -997,7 +997,8 @@
 							(font
 								(size 1.27 1.27)
 							)
-						)					)
+						)
+					)
 					(number "8"
 						(effects
 							(font
@@ -1996,7 +1997,8 @@
 						(width 0.254)
 						(type default)
 					)
-					(fill						(type background)
+					(fill
+						(type background)
 					)
 				)
 				(arc
@@ -2995,7 +2997,8 @@
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)							)
+								(size 1.27 1.27)
+							)
 						)
 					)
 					(number "1"
@@ -3994,7 +3997,8 @@
 		(at 114.3 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "75d1f788-0242-49ee-b058-947765b5dd9f")	)
+		(uuid "75d1f788-0242-49ee-b058-947765b5dd9f")
+	)
 	(junction
 		(at 133.35 35.56)
 		(diameter 0)
@@ -4993,7 +4997,8 @@
 		(pts
 			(xy 53.34 156.21) (xy 71.12 156.21)
 		)
-		(stroke			(width 0)
+		(stroke
+			(width 0)
 			(type default)
 		)
 		(uuid "da09f6a2-3d68-400b-b5b1-1c851904e6db")
@@ -5992,7 +5997,8 @@
 		)
 		(property "Footprint" ""
 			(at 134.62 124.46 0)
-			(hide yes)			(show_name no)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -6991,7 +6997,8 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font					(size 1.27 1.27)
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
